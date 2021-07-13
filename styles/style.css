@@ -179,3 +179,22 @@ hr{
                 align-items: center;
             }
 }
+/* Tablet devices  */
+@media only screen and (min-width:688px) and (max-width:992px) {
+        .section-title{
+            text-align: center;
+        }
+        .first-contenar{
+            width: 100%;
+        }
+       .players{
+           grid-template-columns: repeat(2,1fr);
+       }
+       .player{
+           display: flex;
+           justify-content: center;
+       }
+       .courses {
+           grid-template-columns: repeat(2,1fr);
+       }
+}
